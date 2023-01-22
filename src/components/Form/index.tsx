@@ -47,7 +47,7 @@ export const Form = () => {
             type="text"
             id="number"
             name="number"
-            placeholder="11988887777"
+            placeholder="Exemplo: 11988887777"
             maxLength={11}
             value={number}
             onChange={({ target: { value } }) =>

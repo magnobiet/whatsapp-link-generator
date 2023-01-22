@@ -3,18 +3,18 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
-    node: true
+    node: true,
   },
   settings: {
     react: {
-      version: 'detect'
-    }
+      version: 'detect',
+    },
   },
   extends: [
     'prettier',
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
-    'plugin:react/recommended'
+    'plugin:react/recommended',
   ],
   plugins: ['@typescript-eslint', 'react'],
   parser: '@typescript-eslint/parser',
@@ -22,8 +22,8 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
     ecmaFeatures: {
-      jsx: true
-    }
+      jsx: true,
+    },
   },
   rules: {
     eqeqeq: ['error', 'always'],
@@ -32,5 +32,5 @@ module.exports = {
     'no-unused-vars': 'off',
     'no-use-before-define': 'error',
     'react/react-in-jsx-scope': 'off',
-  }
+  },
 };
