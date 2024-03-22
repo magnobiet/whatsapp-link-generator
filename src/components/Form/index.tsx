@@ -19,7 +19,7 @@ export const Form = () => {
     // let link = 'https://api.whatsapp.com/send?phone=55';
     let link = 'https://wa.me/55';
 
-    if (sanitizedNumber.length !== 11) {
+    if (sanitizedNumber.length < 10) {
       return;
     }
 
